@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickDeliver - Fast & Reliable Delivery Service</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+   
+</head>
+
+<body>
+    <!-- Loading Overlay -->
+    <div class="loading-overlay" id="loadingOverlay">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">
+                <i class="fas fa-shipping-fast"></i> QuickDeliver
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+
+                    <li>
+                        <a href="#testimonials" class="nav-link">Testimonials</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+        <div class="floating-element"></div>
+
+        <div class="hero-content">
+            <h1 class="hero-title">Lightning Fast Delivery</h1>
+            <p class="hero-subtitle">Experience the future of delivery services with QuickDeliver. Fast, reliable, and
+                always on time.</p>
+            <a href="#services" class="hero-btn">Explore Our Services</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2 class="section-title animate-on-scroll">Our Premium Services</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card animate-on-scroll">
+                        <div class="service-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3 class="service-title">Express Delivery</h3>
+                        <p class="service-description">
+                            Get your packages delivered within 2 hours with our express delivery service. Perfect for
+                            urgent deliveries and time-sensitive packages.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card animate-on-scroll">
+                        <div class="service-icon">
+                            <i class="fas fa-truck"></i>
+                        </div>
+                        <h3 class="service-title">Standard Delivery</h3>
+                        <p class="service-description">
+                            Reliable same-day or next-day delivery for all your regular shipping needs. Cost-effective
+                            and dependable service you can trust.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card animate-on-scroll">
+                        <div class="service-icon">
+                            <i class="fas fa-utensils"></i>
+                        </div>
+                        <h3 class="service-title">Food Delivery</h3>
+                        <p class="service-description">
+                            Hot and fresh food delivery from your favorite restaurants. Quick, hygienic, and
+                            temperature-controlled delivery guaranteed.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card animate-on-scroll">
+                        <div class="service-icon">
+                            <i class="fas fa-shopping-bag"></i>
+                        </div>
+                        <h3 class="service-title">Grocery Delivery</h3>
+                        <p class="service-description">
+                            Fresh groceries delivered to your doorstep. From daily essentials to specialty items, we
+                            handle all your grocery needs.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card animate-on-scroll">
+                        <div class="service-icon">
+                            <i class="fas fa-prescription-bottle"></i>
+                        </div>
+                        <h3 class="service-title">Medical Delivery</h3>
+                        <p class="service-description">
+                            Priority delivery for medical supplies and prescriptions. Secure, tracked, and handled with
+                            utmost care and urgency.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-card animate-on-scroll">
+                        <div class="service-icon">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <h3 class="service-title">Corporate Solutions</h3>
+                        <p class="service-description">
+                            Customized delivery solutions for businesses. Bulk deliveries, scheduled pickups, and
+                            dedicated account management.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-content animate-on-scroll">
+                        <h2 class="section-title text-start">Why Choose QuickDeliver?</h2>
+                        <p class="mb-4">
+                            With over 5 years of experience in the delivery industry, QuickDeliver has established
+                            itself as the most trusted and reliable delivery service provider. We combine cutting-edge
+                            technology with exceptional customer service to deliver an unmatched experience.
+                        </p>
+                        <ul class="feature-list">
+                            <li>Real-time tracking for all deliveries</li>
+                            <li>24/7 customer support availability</li>
+                            <li>Eco-friendly delivery options</li>
+                            <li>Secure and insured package handling</li>
+                            <li>Flexible scheduling and delivery options</li>
+                            <li>Competitive pricing with no hidden fees</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-image animate-on-scroll">
+                        <img src="https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                            alt="Delivery team" class="img-fluid rounded-3 shadow-lg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Statistics Section -->
+    <section id="stats" class="stats-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5">
+                    <h2 class="section-title text-white animate-on-scroll">Our Numbers Speak</h2>
+                    <p class="text-white-50 animate-on-scroll">Trusted by thousands of customers across the city</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="stat-card animate-on-scroll">
+                        <div class="stat-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="stat-number counter" data-target="50000">0</div>
+                        <div class="stat-label">Happy Customers</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="stat-card animate-on-scroll">
+                        <div class="stat-icon">
+                            <i class="fas fa-box"></i>
+                        </div>
+                        <div class="stat-number counter" data-target="1000000">0</div>
+                        <div class="stat-label">Packages Delivered</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="stat-card animate-on-scroll">
+                        <div class="stat-icon">
+                            <i class="fas fa-city"></i>
+                        </div>
+                        <div class="stat-number counter" data-target="25">0</div>
+                        <div class="stat-label">Cities Covered</div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="stat-card animate-on-scroll">
+                        <div class="stat-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="stat-number">
+                            <span class="counter" data-target="99">0</span><span class="stat-percent">%</span>
+                        </div>
+                        <div class="stat-label">On-Time Delivery</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center mb-5">
+                    <h2 class="section-title animate-on-scroll">What Our Customers Say</h2>
+                    <p class="text-muted animate-on-scroll">Real feedback from real customers</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="testimonial-card animate-on-scroll">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">
+                            "QuickDeliver has been a game-changer for my business. Their express delivery service is
+                            incredibly fast and reliable. I've never had a single issue with damaged packages."
+                        </p>
+                        <div class="testimonial-author">
+                            <img src="/assets/ChatGPT Image 27 مايو 2025، 01_57_03 ص.png"
+                                alt="Rashid Bin-Zayed" class="author-image">
+                            <div class="author-info">
+                                <h5 class="author-name">Rashid Bin-Zayed</h5>
+                                <p class="author-role">Business Owner</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="testimonial-card animate-on-scroll">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">
+                            "Amazing food delivery service! My orders always arrive hot and fresh. The tracking system is
+                            excellent and customer service is top-notch. Highly recommended!"
+                        </p>
+                        <div class="testimonial-author">
+                            <img src="./assets/ChatGPT Image 27 مايو 2025، 01_55_33 ص.png"  alt="Sarah Johnson" class="author-image">
+                            <div class="author-info">
+                                <h5 class="author-name">Sarah Johnson</h5>
+                                <p class="author-role">Food Enthusiast</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="testimonial-card animate-on-scroll">
+                        <div class="testimonial-stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">
+                            "Professional and efficient! They handle our medical deliveries with utmost care. Quick response
+                            times and excellent communication throughout the process."
+                        </p>
+                        <div class="testimonial-author">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=150&q=80"
+                                alt=Nawaf Hemdan" class="author-image">
+                            <div class="author-info">
+                                <h5 class="author-name">Nawaf Hemdan</h5>
+                                <p class="author-role">Project Ownerl</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+                <div class="col-lg-12 text-center">
+                    <div class="testimonial-navigation">
+                        <button class="nav-btn prev-btn" onclick="changeTestimonial(-1)">
+                            <i class="fas fa-chevron-left"></i>
+                        </button>
+                        <div class="testimonial-dots">
+                            <span class="dot active" onclick="currentTestimonial(1)"></span>
+                            <span class="dot" onclick="currentTestimonial(2)"></span>
+                            <span class="dot" onclick="currentTestimonial(3)"></span>
+                        </div>
+                        <button class="nav-btn next-btn" onclick="changeTestimonial(1)">
+                            <i class="fas fa-chevron-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto">
+                    <h2 class="section-title text-white animate-on-scroll">Get In Touch</h2>
+                    <div class="contact-form animate-on-scroll">
+                        <form id="contactForm">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-floating mb-3">
+                                        <input type="text" class="form-control" id="firstName" placeholder="First Name"
+                                            required>
+                                        <label for="firstName">First Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-floating mb-3">
+                                        <input type="text" class="form-control" id="lastName" placeholder="Last Name"
+                                            required>
+                                        <label for="lastName">Last Name</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="email" placeholder="Email Address"
+                                    required>
+                                <label for="email">Email Address</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <input type="tel" class="form-control" id="phone" placeholder="Phone Number">
+                                <label for="phone">Phone Number</label>
+                            </div>
+                            <div class="form-floating mb-3">
+                                <textarea class="form-control" id="message" style="height: 120px"
+                                    placeholder="Your Message" required></textarea>
+                                <label for="message">Your Message</label>
+                            </div>
+                            <div class="text-center">
+                                <button type="submit" class="hero-btn">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h4 class="footer-title">QuickDeliver</h4>
+                    <p class="text-muted">
+                        Your trusted partner for fast, reliable, and secure delivery services. We deliver more than
+                        packages - we deliver peace of mind.
+                    </p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5 class="footer-title">Services</h5>
+                    <a href="#" class="footer-link">Express Delivery</a>
+                    <a href="#" class="footer-link">Standard Delivery</a>
+                    <a href="#" class="footer-link">Food Delivery</a>
+                    <a href="#" class="footer-link">Grocery Delivery</a>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5 class="footer-title">Company</h5>
+                    <a href="#" class="footer-link">About Us</a>
+                    <a href="#" class="footer-link">Careers</a>
+                    <a href="#" class="footer-link">Press</a>
+                    <a href="#" class="footer-link">Blog</a>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5 class="footer-title">Support</h5>
+                    <a href="#" class="footer-link">Help Center</a>
+                    <a href="#" class="footer-link">Contact Us</a>
+                    <a href="#" class="footer-link">Track Package</a>
+                    <a href="#" class="footer-link">FAQs</a>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5 class="footer-title">Legal</h5>
+                    <a href="#" class="footer-link">Privacy Policy</a>
+                    <a href="#" class="footer-link">Terms of Service</a>
+                    <a href="#" class="footer-link">Cookie Policy</a>
+                    <a href="#" class="footer-link">Disclaimer</a>
+                </div>
+            </div>
+            <hr class="my-4" style="border-color: rgba(255,255,255,0.1);">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <p class="text-muted mb-0">
+                        &copy; 2025 QuickDeliver. All rights reserved. | Designed with ❤️ for better delivery
+                        experience.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+
+   <script src="script.js"></script>
+</body>
+
+</html>
